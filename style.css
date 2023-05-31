@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    max-width: 35%;
+    border-bottom: 6px solid #d8cefe;
+    margin: 40px auto 0px auto; 
+    background-color:#FFC2D1;
+    gap: 1px;
+    
+}
+
+.image{
+    display: inline;
+    height:30vh;
+    width: 200px;
+    border-radius: 100%;
+    
+}
+.word-container{
+    display: inline; 
+    height: 40vh;
+    max-width: 200px;
+    text-align: center;
+}
+h1{
+    padding-top: 5px;
+}
+
+p{
+    padding : 7px 0px;
+    text-align: center;
+}
